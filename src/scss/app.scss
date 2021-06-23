@@ -70,9 +70,15 @@ $la-font-path: "~line-awesome/dist/line-awesome/fonts/";
     font-weight: 500;
     border-top: 1px solid #eee;
     transition: all;
+    animation: test 1000ms;
     &:hover {
       color: white;
       background-color: #086AD8;
+      @keyframes test {
+        50% {background-position: top center
+          ;}
+        
+      }
 
     }
   }
