@@ -2,20 +2,21 @@ import '../scss/app.scss';
 
 /* Your JS Code goes here */
 
+/* MDB ui */
+import * as mdb from 'mdb-ui-kit'; // lib
 /* Demo JS */
 import './demo.js';
 import $ from 'jquery';
 
 import 'slick-carousel';
 
-// alert('labas');
+/* Slick JS*/
 
 $(document).ready(function() {
-  $('.autoplay').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 2000,
+  $('.cards-slider').slick({
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 3
   });
 });
 
