@@ -1,5 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
-
+/* MDB SCSS */
+@import '~mdb-ui-kit/css/mdb.min.css';
 // Slick Slider
 
 $slick-font-path: "~slick-carousel/slick/fonts/";
@@ -17,7 +18,7 @@ $la-font-path: "~line-awesome/dist/line-awesome/fonts/";
     padding-bottom: 40px;
   }
 }
-
+/* Animation example start */
 .animated-arrow {
   background-color: #d2a98e;
   color: white;
@@ -45,3 +46,35 @@ $la-font-path: "~line-awesome/dist/line-awesome/fonts/";
     font-size: 26px;
   }
 }
+/* Animation example end */
+
+.card {
+  transition: all 800ms;
+  &:hover {
+    transform: translateY(-5px);
+  }
+  .card-body {
+    padding: 25px 26px 94px;
+    padding-bottom: 88px;
+  }
+  .box-projects-arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 56px;
+    line-height: 55px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    border-top: 1px solid #eee;
+    transition: all;
+    &:hover {
+      color: white;
+      background-color: #086AD8;
+
+    }
+  }
+}
+
