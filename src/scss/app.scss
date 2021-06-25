@@ -110,9 +110,9 @@ a {
 .slick-relative {
   position: relative;
 }
-.slick-slide {
-  height: 150px;
-}
+// .slick-slide {
+//   height: 150px;
+// }
 .slider-wrapper {
   display: block;
   height: 150px;
@@ -145,7 +145,7 @@ a {
 
 /* Features wrapper CSS start */
 
-.section-title-wrap {
+.section-title-wrap, .projects-wrapper {
   padding-top: 100px;
   padding-bottom: 100px;
 }
